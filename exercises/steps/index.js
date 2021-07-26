@@ -19,6 +19,7 @@
 
 // recursive
 function steps(n, row = 0, stair = "") {
+  // base case
   if (n === row) {
     return;
   }
